@@ -1,0 +1,102 @@
+/* Aki Saito */
+/* Personal Web - css */
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+body, html {
+	height: 100%;
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	line-height: 180%;
+	color: #666;/*
+	text-align: center;*/
+}
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+
+.parallax1 {
+	min-height: 100%;
+	background: transparent;
+}
+
+.parallax2 {
+	background: url(../img/noon-by-jeremy-bishop-unsplash.jpg);
+	min-height: 60%;
+}
+
+.parallax3 {
+	background: url(../img/Evening-by-melissa-cassar-unsplash.jpg);
+	min-height: 40%;
+}
+
+.parallax4 {
+	background: url(../img/Night-by-nathan-anderson-unsplash.jpg);
+	min-height: 100%;
+}
+
+.parallax2, .parallax3, .parallax4 {
+	position: relative;
+	opacity: .75;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.heading {
+	position: absolute;
+	color: #fff;
+	font-size: 500%;
+	top: 38%;
+	width: 100%;
+	/*text-transform: uppercase;*/
+	letter-spacing: 8px;
+	text-shadow: 0 0 10px #000;
+}
+
+.heading-small {
+	position: absolute;
+	top: 45%;
+	width: 100%;
+	color: #fff;
+	font-size: 250%;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	text-shadow: 0 0 10px #000;
+}
+
+.two-columns {
+	float: left;
+	width: 42%;
+	padding: 0 4%;
+	text-align: left;
+}
+
+section {
+	overflow: auto;
+	padding: 50px 80px;
+}
+
+.dark {
+	overflow: auto;
+	padding: 50px 80px;
+	background-color: #323232;
+	color: #f2f2f2;
+}
+
+@media (max-width: 850px) {
+	.heading {
+		font-size: 250%;
+	}
+	.heading-small {
+		font-size: 180%;
+	}
+	.two-columns {
+		width: 100%;
+		padding: 0;
+		text-align: center;
+	}
+}
