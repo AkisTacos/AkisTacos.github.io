@@ -8,3 +8,4 @@ document.onreadystatechange = function () {
          document.getElementById('load').style.visibility="hidden";
   }
 }
+

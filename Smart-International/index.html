@@ -10,15 +10,18 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="http://www.smartinternational.net">
     <link rel="shortcut icon" type="image/png" href="http://smartinternational.net/wp-content/uploads/2019/02/Logo3.png">
-    <link rel="stylesheet" href="Asset/Style/main.css">
-    <script src="/Asset/Script/script.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-	<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+    <link rel="stylesheet" href="Assets/css/main.css">
+    <!-- Preloader Scripts -->
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
   </head>
 
   <body class="preloader js-watch-state is-native-scroll y-scroll" style="color: black;" data-state="home">
   	<!-- Page Loader -->
-  	<div class="se-pre-con"><script>$(window).load(function() {$(".se-pre-con").fadeOut("slow");;});</script></div>
+  	<div class="se-pre-con"><script>$(window).load(function() {
+		// Animate loader off screen
+		$(".se-pre-con").fadeOut(2000);;
+	});</script></div>
 	<!-- Page Wrapper -->
 	<div id="page-wrapper">
 		<!-- Header -->
@@ -45,15 +48,14 @@
 			</footer>
 		</section>
 	</div>
-	<div class="slider" id="main-slider">
-		<div class="slider-wrapper">
-			<img id="bg" src="contactless-jonas-leupe-unsplash.jpg" class="slide" style="opacity: 0;">
-			<img id="bg2" src="emv-reader-rawpixel-unsplash.jpg" class="slide" style="opacity: 0;">
-			<img id="bg3" src="tablet-pos-quickorder-unsplash.jpg" class="slide" style="opacity: 1;">
-		</div>
-	</div>
-		
+
+	<!-- Scripts -->
+		<script src="Scripts/main.js"></script>
     
+		<script>
+			$(function () { console.log('----last html line loaded----'); })
+		</script>
+
   </body>
 
 </html>
