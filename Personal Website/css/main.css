@@ -12,6 +12,108 @@ body, html {
 	text-align: center;*/
 }
 
+.title {
+	color: rgb(255, 255, 255);
+	font-family: bebas neue, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 19.2px;
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+	margin-bottom: 15px;
+	text-align: center;
+	text-shadow: rgba(0, 0, 0, 0.15) 0px 1px 4px;
+}
+
+.heading {
+	position: absolute;
+	text-align: center;
+	color: #fff;
+	font-size: 500%;
+	top: 38%;
+	width: 100%;
+	/*text-transform: uppercase;*/
+	letter-spacing: 8px;
+	text-shadow: 0 0 10px #000;
+}
+
+.heading:hover {
+	border: 1px solid white;
+}
+
+.title {
+	color: rgb(255, 255, 255);
+	font-family: bebas neue, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 19.2px;
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+	margin-bottom: 15px;
+	text-align: center;
+	text-shadow: rgba(0, 0, 0, 0.15) 0px 1px 4px;
+}
+
+.AkiSaito {
+	color: rgb(255, 255, 255);
+	cursor: text;
+	font-family: "open sans", helvetica, sans-serif;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 43.2px;
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+	outline-color: rgb(255, 255, 255);
+	outline-style: none;
+	outline-width: 0px;
+	overflow-wrap: break-word;
+	text-align: center;
+	text-shadow: rgba(0, 0, 0, 0.15) 0px 1px 4px;
+	letter-spacing: 0em;
+}
+
+.AkiSaito:hover {
+	border: 1px solid white;
+}
+
+.subtitle {
+	color: rgb(255, 255, 255);
+	font-family: playfair display, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 23.2px;
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+	margin-bottom: 10px;
+	text-align: center;
+	text-shadow: rgba(0, 0, 0, 0.15) 0px 1px 4px;
+}
+
+.HeyThere {
+	font-size: 20px;
+	font-family: "brandon grotesque", brandon, helvetica, sans-serif; 
+	font-style: normal;
+	line-height: 29px;
+	list-style-position: outside;
+	list-style-type: none;
+	outline-color: rgb(255, 255, 255);
+	text-align: center;
+	text-shadow: rgba(0, 0, 0, 0.15) 0px 1px 4px;
+	letter-spacing: 0em;
+}
+
+.HeyThere:hover {
+	border: 1px solid white;
+}
+
 .parallax1 {
 	min-height: 100%;
 	background: transparent;
@@ -41,16 +143,7 @@ body, html {
 	background-attachment: fixed;
 }
 
-.heading {
-	position: absolute;
-	color: #fff;
-	font-size: 500%;
-	top: 38%;
-	width: 100%;
-	/*text-transform: uppercase;*/
-	letter-spacing: 8px;
-	text-shadow: 0 0 10px #000;
-}
+
 
 .heading-small {
 	position: absolute;
