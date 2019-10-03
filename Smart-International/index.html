@@ -32,20 +32,22 @@
 		$(".se-pre-con").fadeOut(2000);;
 	});</script></div>
 
+	
+
 	<!-- App -->
 	<div id="app">
 		<!-- App Header Content -->
-		<div class="app-header">
+		<div class="header">
 			<!-- App Wrapper -->
-			<div class="app-wrapper">
+			<div class="wrapper-all">
 				<!-- App Container -->
-				<div class="app-container">
+				<div class="container">
 					<!-- App Row 1 -->
-					<div class="first-row">
+					<div class="row">
 						<!-- TODO Replace # with home url -->
-						<a href="#" data-transition="t1" class="app-logo"><img src="http://smartinternational.net/wp-content/uploads/2019/02/cropped-Logo1.png"></a>
+						<a href="#" data-transition="t1" class="logo"><img src="Assets/Images/Logo-Placeholder.png"></a>
 						<!-- App Nav Bar Middle Content (NAV) -->
-						<div class="app-nav-middle">
+						<div class="nav">
 							<ul>
 								<li>
 									<!-- TODO Replace # with Home|About Us|Our Products|Application|Contact Us -->
@@ -70,42 +72,130 @@
 							</ul>
 						</div>
 						<!-- App Nav Bar Right Content (RIGHT) -->
-						<div class="app-nav-right">
+						<div class="right">
+							<div class="btn-search">
+                                <a href="#">
+                                    <img src="Assets/Images/search-icon.png">
+                                </a>
+                            </div>
 							<!-- Menu -->
-							<div class="app-menu" id="app-menu">
-								<div id="a-m-container">
-									<div id="a-m-icon"></div>
-									<div id="a-m-icon"></div>
-									<div id="a-m-icon"></div>
+							<div class="toggle" id="toggle">
+								<div>
+									<div></div>
+									<div></div>
+									<div></div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div></div>
-		
+			</div>
+		</div>
+		<div class="bg-top-search"></div>
+		<search-bar ref="searchBar"></search-bar>
 		<!-- App Nav Menu (NAV RESPONSIVE) -->
-		<div class="app-nav-content"><!-- TODO Finish content for nav menu --></div>
+		<div class="nav-responsive">
+			<!-- TODO Finish content for nav menu -->
+			<div class="bg-white"></div>
+			<div class="bg-red"></div>
+			<div class="wrapper-all">
+				<div class="container">
+					<a href="#" class="btn-close">
+						<img src="Assets/Images/close-icon.png">
+					</a>
+					<div class="logo col-sm-9">
+						<a href="#" data-transition="t2">
+							<img src="Assets/Images/Logo-Placeholder.png">
+						</a>
+					</div>
+					<div class="columns row align-items-center">
+						<div class="col-12 col-sm-6 offset-sm-1 col-lg-8 offset-lg-0 left">
+							<div class="nav-primary">
+								<ul>
+									<li>
+										<a class="" href="#" data-transition="t2">Tablet Processing</a>
+									</li>
+									<li>
+										<a class="" href="#" data-transition="t2">POS Processing</a>
+									</li>
+									<li>
+										<a class="" href="#" data-transition="t2">Terminal Processing</a>
+									</li>
+									<li>
+										<a class="" href="#" data-transition="t2">Mobile Processing</a>
+									</li>
+									<li>
+										<a class="" href="#" data-transition="t2">Online Processing</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-12 col-sm-5 col-lg-4 right">
+							<div class="nav-secondary">
+								<ul>
+									<li>
+										<a class="" href="#" data-transition="t2">About Us</a>
+									</li>
+									<li>
+										<a class="" href="#" data-transition="t2">Our Products</a>
+									</li>
+									<li>
+										<a class="" href="#" data-transition="t2">Application</a>
+									</li>
+									<li>
+										<a class="" href="#" data-transition="t2">Contact Us</a>
+									</li>
+								</ul>
+							</div>
+							<div class="social">
+								<ul>
+									<li>
+										<a href="https://www.facebook.com/smartinternational">
+											<img src="Assets/Images/facebook-icon.png">
+											<img src="Assets/Images/facebook-icon-hover.png" class="hover">
+										</a>
+									</li>
+									<li>
+										<a href="https://twitter.com/blog_smartinter">
+											<img src="Assets/Images/twitter-icon.png">
+											<img src="Assets/Images/twitter-icon-hover.png" class="hover">
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 		
 		<!-- Main Content -->
 		<div class="main">
 			<!-- Main (MOD SLIDER HOME) -->
-			<div class="main-home">
-				<!-- Main -->
-				<div class="main-desktop-slider">
-					<div class="desktop-slider-bg wrapper-left">
-						<div class="slider-container">
-							<div class="moveLeft">
-								<div class="slider-images">
-									<div class="image current">
+			<div class="module_slider-home">
+				<!-- Main Desktop -->
+				<div class="cooling-heating">
+					<img src="Assets/Images/cooling-heating-slider-home.png">
+				</div>
+				<div class="slider-desktop">
+					<div class="slider-desktop__bg wrapper-left">
+						<div class="container-fluid">
+							<div class="toRight">
+								<div class="clippath">
+									<div class="img">
 										<div style="background-image: url(Assets/Images/contactless-jonas-leupe-unsplash.jpg);"></div>
 									</div>
-									<div class="image">
+									<div class="img">
 										<div style="background-image: url(Assets/Images/emv-reader-rawpixel-unsplash.jpg);"></div>
 									</div>
-									<div class="image">
+									<div class="img">
 										<div style="background-image: url(Assets/Images/emv-reader-rawpixel-unsplash.jpg);"></div>
 									</div>
+								</div>
+								<div class="noclippath">
+									<div class="img in is-active" style="background-image:url(Assets/Images/contactless-jonas-leupe-unsplash.jpg);"></div>
+									<div class="img in is-active" style="background-image:url(Assets/Images/emv-reader-rawpixel-unsplash.jpg);"></div>
+									<div class="img in is-active" style="background-image:url(Assets/Images/emv-reader-rawpixel-unsplash.jpg);"></div>
 								</div>
 							</div>
 						</div>
@@ -188,14 +278,14 @@
 										<a href="#" class="arrow--left">
 											<div></div>
 											<!-- TODO Find Free Arrow Icon -->
-											<img src="" class="active">
-											<img src="" class="inactive">
+											<img src="Assets/Images/left-arrow-active.png" class="active">
+											<img src="Assets/Images/left-arrow-inactive.png" class="inactive">
 										</a>
 										<a href="#" class="arrow--right">
 											<div></div>
 											<!-- TODO Find Free Arrow Icon -->
-											<img src="" class="active">
-											<img src="" class="inactive">
+											<img src="Assets/Images/right-arrow-active.png" class="active">
+											<img src="Assets/Images/right-arrow-inactive.png" class="inactive">
 										</a>
 									</div>
 								</div>
@@ -203,9 +293,126 @@
 						</div>
 					</div>
 					<!-- End Slide Arrows -->
+					<!-- Scroll Down Arrow Picture -->
+					<div class="scroll-down">
+						<img src="Assets/Images/scroll-down-arrow.png"> Keep going
+					</div>
+					<!-- End Scroll Down Arrow -->
 				</div>
-				<div class="main-mobile-slider"></div>
+				<!-- End Main Desktop -->
+
+				<!-- Main Mobile -->
+				<div class="main-mobile-slider">
+					<!-- TODO Make Mobile Friendly -->
+				</div>
+				<!-- End Main Mobile -->
 			</div>
+			<!-- End of Main (MOD SLIDER HOME) -->
+			
+			<!-- POS -->
+			<div class="feel-your-home">
+				<!-- title text -->
+				<div class="module_title-text">
+					<div class="wrapper-all">
+						<div class="container">
+							<div class="row">
+								<div class="left col-sm-6">
+									<h2 class="title--big">
+										in <br/>
+										your <br/>business
+									</h2>
+								</div>
+								<div class="col-sm-1"></div>
+								<div class="right col-sm-4">
+									<div class="txt">
+										<h3 class="title--tag title--tag--black">Grow your business</h3>
+										<div class="title--title10">
+											<span class="line line--red">-</span>
+											<!-- TODO Change red to blue -->
+											<p class="">Your business grow and sales increase with your new Point of Sales (POS).</p>
+										</div>
+										<div class="button align-center">
+											<a href="">
+												<div class="bg"></div>
+												<span>Check POS out</span>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- End of title text -->
+
+				<!-- section grid -->
+				<div class="section-grid">
+					<div class="wrapper-all">
+						<div class="container">
+							<div class="row">
+								<div class="col-sm-12">
+									<div class="grid grid-in-your-business">
+										<!-- section 1 -->
+										<div class="section">
+											<div class="bg"></div>
+											<a href="" data-transition="t1">
+												<div class="txt scroll-parallax" data-speed="0.1">
+													<h3 class="title--title11 white">POS</h3>
+													<h4 class="title--tag white">in your business</h4>
+													<div class="arrows">
+														<div>
+															<div></div>
+															<img src="Assets/Images/right-arrow-white.png">
+														</div>
+													</div>
+												</div>
+												<div class="img">
+													<div>
+														<div>
+															<!-- TODO Add image -->
+															<img src="Assets/Images/POS-with-background.jpg" alt="pos with background">
+														</div>
+													</div>
+												</div>
+											</a>
+										</div>
+										<!-- End of section 1 -->
+
+										<!-- section 2 -->
+										<div class="section">
+											<div class="bg"></div>
+											<a href="" data-transition="t1">
+												<div class="txt scroll-parallax" data-speed="0.1">
+													<h3 class="title--title11 white">POS 2</h3>
+													<h4 class="title--tag white">in your business</h4>
+													<div class="arrows">
+														<div>
+															<div></div>
+															<img src="Assets/Images/right-arrow-white.png">
+														</div>
+													</div>
+												</div>
+												<div class="img">
+													<div>
+														<div>
+															<!-- TODO Add image -->
+															<img src="Assets/Images/emv-vx520.jpg" alt="emv vx520">
+														</div>
+													</div>
+												</div>
+											</a>
+										</div>
+										<!-- End of section 2 -->
+										<div class="gutter-sizer"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- End of section grid -->
+			</div>
+			<!-- End of POS -->
 		</div>
 		<!-- End of App -->
 	</div>
