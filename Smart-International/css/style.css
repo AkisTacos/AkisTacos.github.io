@@ -519,6 +519,13 @@ pre {
   padding-right: 15px;
   padding-left: 15px; }
 
+.col-md-4-1 {
+  position: relative;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .col {
   -ms-flex-preferred-size: 0;
   flex-basis: 0;
@@ -906,7 +913,13 @@ pre {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 33.33333%;
     flex: 0 0 33.33333%;
-    max-width: 33.33333%; }
+    max-width: 24.33333%; }
+  .col-md-4-1 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 39.33333%;
+    flex: 0 0 51.33333%;
+    max-width: 51.33333%;
+  }
   .col-md-5 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 41.66667%;
@@ -8729,7 +8742,7 @@ h1, h2, h3, h4, h5,
   -webkit-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  border: 1px solid rgba(0, 0, 0, 0.05);
+  border: 0px solid rgba(0, 0, 0, 0.05);
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
