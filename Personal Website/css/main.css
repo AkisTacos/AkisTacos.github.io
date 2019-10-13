@@ -39,9 +39,6 @@ body, html {
 	text-shadow: 0 0 10px #000;
 }
 
-.heading:hover {
-	border: 1px solid white;
-}
 
 .title {
 	color: rgb(255, 255, 255);
@@ -78,9 +75,9 @@ body, html {
 	letter-spacing: 0em;
 }
 
-.AkiSaito:hover {
+/*.AkiSaito:hover, .HeyThere:hover, .heading:hover{
 	border: 1px solid white;
-}
+}*/
 
 .subtitle {
 	color: rgb(255, 255, 255);
@@ -110,9 +107,7 @@ body, html {
 	letter-spacing: 0em;
 }
 
-.HeyThere:hover {
-	border: 1px solid white;
-}
+
 
 .parallax1 {
 	min-height: 100%;
