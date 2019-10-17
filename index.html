@@ -4,70 +4,96 @@
 <html>
 <head>      
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="x-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="Personal Website/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="Personal Website/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="Personal Website/favicon/favicon-16x16.png">
+	<!-- Content -->
     <title>Aki Saito</title>  
-
- 	<link rel="stylesheet" href="Personal Website/css/main.css">
- 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-	<script src="parallax.js-1.5.0/parallax.js-1.5.0/parallax.min.js"></script>
+    <!-- Bootstrap Style --> 	
+ 	<link href="Personal Website/css/bootstrap.min.css" rel="stylesheet">
+ 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<!-- Custom Style -->
+	<link href="Personal Website/css/main.css" rel="stylesheet">
+	<link href="Personal Website/css/carousel.css" rel="stylesheet">
+	<link href="Personal Website/css/theme.default.min.css" rel="stylesheet">
 </head>
-<body>
-	
-	<div class='parallax1' data-parallax="scroll" data-image-src="Personal Website/img/Morning-by-jasper-boer-unsplash.jpg">
-		<div class='heading'>
-			<div class="subtitle">
-				<div class="HeyThere" style="outline: currentcolor none 0px;" tabindex="0" role="textbox" aria-label="false" contenteditable="true"><p style="font-size: 130%;"><em>Hey there, I'm</em><br type="_moz"></p></div>
-			</div>
-			<div class="title">
-				<div class="AkiSaito"><p><strong>AKI SAITO</strong><br type="_moz"></p>
+<body>	
+	<!-- Header -->
+	<header>
+		<div class="container">
+			<div class="slider-container">
+				<div class="intro-text">
+					<div class="intro-lead-in"><em>Hey there, I'm</em></div>
+					<div class="intro-heading"><strong>AKI SAITO</strong></div>
+					<br type="_moz">
 				</div>
 			</div>
 		</div>
-	</div>
-
-	<section>
-		<h1>Heading1</h1>
-		<h3>Heading</h3>
-		<div class='two-columns'>
-			<p>
-				Our paragraph text...1
-			</p>
+	</header>
+	<!-- First Section -->
+	<section id="about" class="light-bg">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<div class="section-title">
+						<h2>ABOUT</h2>
+						<p>A creative agency based on Candy Land, ready to boost your business with some beautifull templates. Lattes Agency is one of the best in town see more you will be amazed.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<!-- about module -->
+				<div class="col-md-3 text-center">
+					<div class="mz-module-about">
+						<i class="fa fa-briefcase ot-circle"></i>
+						<h3>Web Development</h3>
+						<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+					</div>
+				</div>
+				<!-- end about module -->
+				<!-- about module -->
+				<div class="col-md-3 text-center">
+					<div class="mz-module-about">
+						<i class="fa fa-photo ot-circle"></i>
+						<h3>Visualisation</h3>
+						<p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe</p>
+					</div>
+				</div>
+				<!-- end about module -->
+				<!-- about module -->
+				<div class="col-md-3 text-center">
+					<div class="mz-module-about">
+						<i class="fa fa-camera-retro ot-circle"></i>
+						<h3>Photography</h3>
+						<p>Accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+					</div>
+				</div>
+				<!-- end about module -->
+				<!-- about module -->
+				<div class="col-md-3 text-center">
+					<div class="mz-module-about">
+						<i class="fa fa-cube ot-circle"></i>
+						<h3>UI/UX Design</h3>
+						<p> Itaque earum rerum hic tenetur a sapiente, ut aut reiciendis maiores</p>
+					</div>
+				</div>
+				<!-- end about module -->
+			</div>
 		</div>
-		<div class='two-columns'>
-			<p>
-				Our paragraph text...2
-			</p>
-		</div>
+		<!-- /.container -->
 	</section>
+	<!-- JavaScript -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/carousel.min.js"></script>
+	<script src="js/cbpAnimatedHeader.js"></script>
+	<script src="js/theme-scripts.js"></script>
 
-	<div class='parallax2'>
-		<div class='heading-small'>
-			Parallax2 small
-		</div>
-	</div>
-
-	<section class='dark'>
-		<h2>Dark Section</h2>
-		<p>Dark section paragraph</p>
-	</section>
-
-	<div class='parallax3'>
-	</div>
-
-	<div class='dark'>
-		<h3>Fixed Background scrolling</h3>
-		<div class='two-columns'>
-			<p>Fixed Backgound scrolling paragraph 1...</p>
-		</div>
-		<div class='two-columns'>
-			<p>Fixed Backgound scrolling paragraph 2...</p>
-		</div>
-	</div>
-
-	<div class='parallax4'>
-
-	</div>
-
+	<script src="js/ie10-viewport-bug-workaround.js"></script>
+	<script src="parallax.js-1.5.0/parallax.js-1.5.0/parallax.min.js"></script>
 </body>
 </html>
