@@ -31,6 +31,17 @@
 	--font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
 }
 
+.about_list {
+	text-align: center;
+	justify-content: center;
+
+}
+
+.about_icon {
+	max-width: 150px;
+	max-height: 150px;
+}
+
 *,
 ::after,
 ::before {
@@ -416,6 +427,18 @@ h5 {
 .h6,
 h6 {
 	font-size: 1rem
+}
+
+.lead_about {
+	margin-top: 15px;
+	font-size: 1.25rem;
+	font-weight: 600;
+	color: #2c3e50;
+}
+
+.lead_about_text {
+	font-size: 1.1rem;
+	font-weight: 1;
 }
 
 .lead {
@@ -7850,7 +7873,7 @@ button.bg-dark:hover {
 
 .mb-5,
 .my-5 {
-	margin-bottom: 3rem!important
+	margin-bottom: 5rem!important
 }
 
 .ml-5,
@@ -10017,7 +10040,7 @@ a.text-dark:hover {
 @media (min-width:992px) {
 	.masthead {
 		padding-top: calc(6rem + 104px);
-		padding-bottom: 6rem
+		padding-bottom: 15rem
 	}
 	.masthead .masthead-heading {
 		font-size: 1.5rem;
