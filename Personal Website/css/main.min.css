@@ -42,6 +42,19 @@
 	max-height: 150px;
 }
 
+.contact-text {
+	font-size: 20px;
+	text-align: center;
+	color: #2c3e50;
+	font-weight: 600;
+	line-height: 18pt;
+}
+
+@media screen and (min-width: 960px)
+.animated.slide-in-right {
+	animation: slideInRight .75s ease both; 
+}
+
 *,
 ::after,
 ::before {
