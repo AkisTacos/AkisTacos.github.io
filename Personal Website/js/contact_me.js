@@ -46,7 +46,7 @@ $(function() {
           $('#success').html("<div class='alert alert-danger'>");
           $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
             .append("</button>");
-          $('#success > .alert-danger').append($("<strong>").text("Sorry " + firstName + ", unfortunately, Git Pages doesn't allow server content. I am working on a fix! In the mean time, please contact me on Let's get in touch!"));
+          $('#success > .alert-danger').multiline("\zOpps!\nSorry " + firstName + ", looks like I'm having trouble with my server...\nIn the mean time, please check under Let's get in touch!");          
           $('#success > .alert-danger').append('</div>');
           //clear all fields
           $('#contactForm').trigger("reset");
@@ -68,6 +68,14 @@ $(function() {
     $(this).tab("show");
   });
 });
+
+// For multiple lines in .text() 
+$.fn.multiline = function(text){
+  this.text(text);
+  this.html(this.html().replace(/\z/g,'<strong>'));
+  this.html(this.html().replace(/\n/g,'<br/>'));
+  return this;
+}
 
 /*When clicking on Full hide fail/success boxes */
 $('#name').focus(function() {
