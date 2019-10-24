@@ -46,7 +46,7 @@ $(function() {
           $('#success').html("<div class='alert alert-danger'>");
           $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
             .append("</button>");
-          $('#success > .alert-danger').append($("<strong>").text("Sorry " + firstName + ", it seems that my mail server is not responding. Please try again later!"));
+          $('#success > .alert-danger').append($("<strong>").text("Sorry " + firstName + ", unfortunately, Git Pages doesn't allow server content. I am working on a fix! In the mean time, please contact me on Let's get in touch!"));
           $('#success > .alert-danger').append('</div>');
           //clear all fields
           $('#contactForm').trigger("reset");
