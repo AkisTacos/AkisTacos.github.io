@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
 
+/*
+* background color for side bar: #2a2a2a;
+* side bar godible db color :#00cc00;
+* 
+*
+*
+*/
+
 * {
   margin: 0;
   padding: 0;
@@ -69,27 +77,103 @@ body {
 }
 
 .wrapper .main_content .info {
-  margin: 20px;
+  margin: 20px 20px 20px 20px;
   color: #717171;
   line-height: 25px;
+  /*border: 1px dashed black;*/
+}
+
+.wrapper .main_content .info .inputs {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-begin;
+  text-align: left;
+  /*border: 1px solid orange;*/
 }
 
 .wrapper .main_content .info div {
   margin-bottom: 20px;
 }
 
-.inputs{
-  input[type=number]::-webkit-inner-spin-button, 
-  input[type=number]::-webkit-outer-spin-button { 
-    -webkit-appearance: none;
-    margin: 0; /* Removes leftover margin */
-  },
-  input[type=number] {
-    -moz-appearance:textfield;
-  },
-  .bName,
-  .cNumber,
-  .sNumber {
-    height: 100px;
-  }
+.wrapper .main_content .info label {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-begin;
+  text-align: left;
+  line-height: 20px;
+  width: 13%;
+  /*border: 1px solid blue;*/
+}
+
+.wrapper .main_content .info input {
+  height: 20px;
+  flex: 0 0 200px;
+  margin-left: 10px;
+  /*border: 1px solid blue;*/
+}
+
+.readme > .title {
+  color: black;
+}
+
+.sectionTitle {
+  font-size: 23px;
+  margin-left: 20%;
+}
+
+/* Button */
+.button_container{
+  display: flex;
+  width: 200px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  /*border: 2px solid red;*/
+}
+
+.button, .tick {
+  margin: auto;
+  font-family: sans-serif;
+  /*border: 2px solid blue;*/
+}
+
+.button {
+  width: 150px;
+  height: 40px;
+  /*background: #2a2a2a;*/
+  background: gray;
+  border-radius: 6px;
+  transition: all .3s cubic-bezier(0.67, 0.17, 0.40, 0.83);
+}
+
+.button svg {
+  transform: rotate(180deg);
+  transition: all .5s;
+}
+
+.button__circle {
+  width: 60px;
+  height: 60px;
+  background: #787878;
+  border-radius: 50%;
+  transform: rotate(-180deg);
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.tick {
+  color: #00cc00;
+  font-size: 25px;
+  transition: all .9s;
+}
+
+/* Testing Purpose*/
+.info {
+  /*border: 1px solid red;*/
+}
+
+.inputs {
+  /*border: 1px solid green;*/
 }
