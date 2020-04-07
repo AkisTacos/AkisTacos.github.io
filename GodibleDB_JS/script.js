@@ -4,6 +4,12 @@
 * by Aki Saito
 */
 
+$(document).ready(function() {
+	$('.nav-trigger').click(function() {
+		$('.side-nav').toggleClass('visible');
+	});
+});
+
 /*
 * Retrieve input fields
 *
@@ -77,3 +83,4 @@ function submitForm() {
 
 	alert(formData);
 }
+
